@@ -24,8 +24,8 @@ I have lots of catching up to do in in this class as I missed the last two. This
 - [ ] Week 11 progress report
 - [x] Pickup PCB
   * Board is not wide enough and GPIO is hidden under the PN532
-  * Reduce GPIO's to top 6
-  * Remove copper plater to reduce shorting chances
+  * ~~Reduce GPIO's to top 6~~
+  * ~~Remove copper plater to reduce shorting chances~~
   * Widen lines to 15mm
   * Cut/short I2C headers
   * Redo PCB layout
