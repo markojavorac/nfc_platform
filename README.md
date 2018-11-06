@@ -22,10 +22,16 @@ Today is the PCB solder milestone. I plan to get my board from the prototype lab
 I have lots of catching up to do in in this class as I missed the last two. This includes,
 - [ ] Start the budget
 - [ ] Week 11 progress report
-- [ ] Pickup PCB
+- [x] Pickup PCB
+  * Board is not wide enough and GPIO is hidden under the PN532
+  * Reduce GPIO's to top 6
+  * Remove copper plater to reduce shorting chances
+  * Widen lines to 15mm
+  * Cut/short I2C headers
+  * Redo PCB layout
 - [ ] Plan the final 4 weeks
 - [ ] Read the first 3 chapters of "Beginning NFC"
-- [ ] Purchase header pins + add to budget
+- [ ] Purchase stack header pins + add to budget
 - [ ] Add image of PCB
 
 ## License
