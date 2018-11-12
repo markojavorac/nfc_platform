@@ -31,8 +31,10 @@ I have lots of catching up to do in in this class as I missed the last two. This
 - [ ] Cut/short I2C jumpers
 - [ ] Plan the final 4 weeks
 - [x] Read the first 3 chapters of "Beginning NFC"
-- [x] ~~Purchase stack header pins + add to budget~~
-- [ ] Add image of PCB
+- [x] ~~Purchase stack header pins~~ + ~~add to budget~~
+- [x] Add image of PCB
+#### Image Update - PCB_V1
+![Image of pcb_v1](https://github.com/markojavorac/nfc_platform/blob/master/resources/pcb_v1.JPG)
 
 ## License
 This project is licensed under the GNU General Public License v3.0 - see the LICENSE.md file for details
