@@ -20,7 +20,7 @@ PCB has been designed in Eagle and submitted to the prototype lab. Currently rea
 ### Week 10 - November 6th, 2018
 Today is the PCB solder milestone. I plan to get my board from the prototype lab and create temporary connections to test if the board is functioning correctly.
 I have lots of catching up to do in in this class as I missed the last two. This includes,
-- [ ] Start the budget
+- [x] Re-upload budget
 - [ ] Week 11 progress report
 - [ ] Pickup redesigned board
   * ~~Board is not wide enough and GPIO is hidden under the PN532~~
@@ -29,7 +29,6 @@ I have lots of catching up to do in in this class as I missed the last two. This
   * ~~Widen lines to 15mm~~
   * ~~Redo PCB layout~~
 - [ ] Cut/short I2C jumpers
-- [ ] Plan the final 4 weeks
 - [x] Read the first 3 chapters of "Beginning NFC"
 - [x] ~~Purchase stack header pins~~ + ~~add to budget~~
 - [x] Add image of PCB
