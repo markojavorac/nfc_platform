@@ -23,15 +23,15 @@ I have lots of catching up to do in in this class as I missed the last two. This
 - [ ] Start the budget
 - [ ] Week 11 progress report
 - [ ] Pickup redesigned board
-  * Board is not wide enough and GPIO is hidden under the PN532
+  * ~~Board is not wide enough and GPIO is hidden under the PN532~~
   * ~~Reduce GPIO's to top 6~~
   * ~~Remove copper plater to reduce shorting chances~~
   * ~~Widen lines to 15mm~~
-  * Cut/short I2C headers
   * ~~Redo PCB layout~~
+- [ ] Cut/short I2C jumpers
 - [ ] Plan the final 4 weeks
-- [ ] Read the first 3 chapters of "Beginning NFC"
-- [ ] ~~Purchase stack header pins~~ + add to budget
+- [x] Read the first 3 chapters of "Beginning NFC"
+- [x] ~~Purchase stack header pins + add to budget~~
 - [ ] Add image of PCB
 
 ## License
