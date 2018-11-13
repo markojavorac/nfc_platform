@@ -21,8 +21,7 @@ PCB has been designed in Eagle and submitted to the prototype lab. Currently rea
 Today is the PCB solder milestone. I plan to get my board from the prototype lab and create temporary connections to test if the board is functioning correctly.
 I have lots of catching up to do in in this class as I missed the last two. This includes,
 - [x] Re-upload budget
-- [ ] Week 11 progress report
-- [ ] Pickup redesigned board
+- [x] Pickup redesigned board
   * ~~Board is not wide enough and GPIO is hidden under the PN532~~
   * ~~Reduce GPIO's to top 6~~
   * ~~Remove copper plater to reduce shorting chances~~
@@ -34,6 +33,13 @@ I have lots of catching up to do in in this class as I missed the last two. This
 - [x] Add image of PCB
 #### Image Update - PCB_V1
 ![Image of pcb_v1](https://github.com/markojavorac/nfc_platform/blob/master/resources/pcb_v1.JPG)
+
+### Week 11 - November 13th, 2018
+Today I picked up my board but with Kristians keen eye, he caught that my board had some fundamental design flaws. I will have to redo the wiring so that when I solder my headers, they will actually do something. I also need to begin on the case and start the backend of this project. I will have to work with Jacob to make sure our sensors can work together properly.
+- [ ] Rewire
+- [ ] Reprint
+- [ ] Start case
+- [ ] Cut/short I2C jumpers
 
 ## License
 This project is licensed under the GNU General Public License v3.0 - see the LICENSE.md file for details
