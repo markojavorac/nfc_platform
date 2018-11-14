@@ -36,7 +36,7 @@ I have lots of catching up to do in in this class as I missed the last two. This
 
 ### Week 11 - November 13th, 2018
 Today I picked up my board but with Kristians keen eye, he caught that my board had some fundamental design flaws. I will have to redo the wiring so that when I solder my headers, they will actually do something. I also need to begin on the case and start the backend of this project. I will have to work with Jacob to make sure our sensors can work together properly.
-- [ ] Rewire
+- [x] Rewire
 - [ ] Reprint
 - [ ] Start case
 - [ ] Cut/short I2C jumpers
