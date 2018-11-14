@@ -12,6 +12,9 @@ https://learn.adafruit.com/adafruit-pn532-rfid-nfc
 ## Software
 Developed on and for the Broadcom Development Platform(Raspberry Pi)
 
+## Budget
+https://github.com/markojavorac/nfc_platform/blob/master/documentation/Budget_v2.xlsx
+
 ## Progress
 [Project Schedule](temp.com)
 ### Week 9
