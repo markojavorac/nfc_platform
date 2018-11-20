@@ -52,6 +52,7 @@ Today I picked up my board but with Kristians keen eye, he caught that my board 
 - [ ] Print case
 - [ ] Cut/short I2C jumpers
 - [ ] Upload images of PCB
+- [ ] Seperate index.md & README.md
 
 ## License
 This project is licensed under the GNU General Public License v3.0 - see the LICENSE.md file for details
