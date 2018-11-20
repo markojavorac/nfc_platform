@@ -51,6 +51,7 @@ Today I picked up my board but with Kristians keen eye, he caught that my board 
 ### Week 12 - November 20th, 2018
 - [ ] Print case
 - [ ] Cut/short I2C jumpers
+- [ ] Upload images of PCB
 
 ## License
 This project is licensed under the GNU General Public License v3.0 - see the LICENSE.md file for details
