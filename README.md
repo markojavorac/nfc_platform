@@ -35,7 +35,7 @@ I have lots of catching up to do in in this class as I missed the last two. This
 - [x] ~~Purchase stack header pins~~ + ~~add to budget~~
 - [x] Add image of PCB
 #### Image Update - PCB_V1
-![Image of pcb_v1](https://github.com/markojavorac/nfc_platform/blob/master/resources/pcb_v1.JPG)
+![Image of pcb_v1](https://raw.githubusercontent.com/markojavorac/nfc_platform/master/resources/pcb_v1.JPG)
 
 ### Week 11 - November 13th, 2018
 Today I picked up my board but with Kristians keen eye, he caught that my board had some fundamental design flaws. I will have to redo the wiring so that when I solder my headers, they will actually do something. I also need to begin on the case and start the backend of this project. I will have to work with Jacob to make sure our sensors can work together properly.
@@ -51,8 +51,8 @@ Today I picked up my board but with Kristians keen eye, he caught that my board 
 ### Week 12 - November 20th, 2018
 - [ ] Print case
 - [ ] Cut/short I2C jumpers
-- [ ] Upload images of PCB
-- [ ] Seperate index.md & README.md
+- [x] Upload images of PCB
+- [x] Seperate index.md & README.md
 
 ## License
 This project is licensed under the GNU General Public License v3.0 - see the LICENSE.md file for details
