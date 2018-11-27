@@ -42,17 +42,25 @@ Today I picked up my board but with Kristians keen eye, he caught that my board 
 - [x] Rewire
 - [x] Reprint
 - [x] Start case
-- [ ] Cut/short I2C jumpers
+- ~~[ ] Cut/short I2C jumpers~~
 
 #### Image Update - PCB_V4
 ![Image of pcb_v4](https://raw.githubusercontent.com/markojavorac/nfc_platform/master/resources/pcb_v4_1.JPG)
 ![Image of pcb_v4_2](https://raw.githubusercontent.com/markojavorac/nfc_platform/master/resources/pcb_v4_2.JPG)
 
 ### Week 12 - November 20th, 2018
-- [ ] Print case
-- [ ] Cut/short I2C jumpers
+- [x] Print case
 - [x] Upload images of PCB
 - [x] Seperate index.md & README.md
+
+### Image Update - PCB_V4
+#### Software
+![Image of nfc_sw](https://raw.githubusercontent.com/markojavorac/nfc_platform/master/resources/nfc_sw_1.JPG)
+![Image of nfc_sw](https://raw.githubusercontent.com/markojavorac/nfc_platform/master/resources/nfc_sw_2.JPG)
+
+#### Hardware
+![Image of nfc_sw](https://raw.githubusercontent.com/markojavorac/nfc_platform/master/resources/pcb_final_1.JPG)
+![Image of nfc_sw](https://raw.githubusercontent.com/markojavorac/nfc_platform/master/resources/pcb_final_2.JPG)
 
 ## License
 This project is licensed under the GNU General Public License v3.0 - see the LICENSE.md file for details
