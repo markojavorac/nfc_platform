@@ -15,30 +15,13 @@ Developed on and for the Broadcom Development Platform(Raspberry Pi)
 ## Budget
 https://github.com/markojavorac/nfc_platform/blob/master/documentation/Budget_v2.xlsx
 
+## Budget
+https://github.com/markojavorac/nfc_platform/blob/master/documentation/Budget_v2.xlsx
+
 ## Progress
 [Project Schedule](temp.com)
 ### Week 9
 PCB has been designed in Eagle and submitted to the prototype lab. Currently reading Beginning NFC by O'Reilly to understand libnfc and software standards.
-
-#### Image Update - PCB_V4
-![Image of pcb_v4](https://raw.githubusercontent.com/markojavorac/nfc_platform/master/resources/pcb_v4_1.JPG)
-![Image of pcb_v4_2](https://raw.githubusercontent.com/markojavorac/nfc_platform/master/resources/pcb_v4_2.JPG)
-
-### Week 12 - November 20th, 2018
-- [ ] Print case
-- [ ] Cut/short I2C jumpers
-- [ ] Upload images of PCB
-- [ ] Seperate index.md & README.md
-
-#### Image Update - PCB_V1
-![Image of pcb_v1](https://github.com/markojavorac/nfc_platform/blob/master/resources/pcb_v1.JPG)
-
-### Week 11 - November 13th, 2018
-Today I picked up my board but with Kristians keen eye, he caught that my board had some fundamental design flaws. I will have to redo the wiring so that when I solder my headers, they will actually do something. I also need to begin on the case and start the backend of this project. I will have to work with Jacob to make sure our sensors can work together properly.
-- [x] Rewire
-- [x] Reprint
-- [x] Start case
-- [ ] Cut/short I2C jumpers
 
 ### Week 10 - November 6th, 2018
 Today is the PCB solder milestone. I plan to get my board from the prototype lab and create temporary connections to test if the board is functioning correctly.
@@ -54,8 +37,33 @@ I have lots of catching up to do in in this class as I missed the last two. This
 - [x] Read the first 3 chapters of "Beginning NFC"
 - [x] ~~Purchase stack header pins~~ + ~~add to budget~~
 - [x] Add image of PCB
+#### Image Update - PCB_V1
+![Image of pcb_v1](https://raw.githubusercontent.com/markojavorac/nfc_platform/master/resources/pcb_v1.JPG)
 
+### Week 11 - November 13th, 2018
+Today I picked up my board but with Kristians keen eye, he caught that my board had some fundamental design flaws. I will have to redo the wiring so that when I solder my headers, they will actually do something. I also need to begin on the case and start the backend of this project. I will have to work with Jacob to make sure our sensors can work together properly.
+- [x] Rewire
+- [x] Reprint
+- [x] Start case
+- ~~[ ] Cut/short I2C jumpers~~
 
+#### Image Update - PCB_V4
+![Image of pcb_v4](https://raw.githubusercontent.com/markojavorac/nfc_platform/master/resources/pcb_v4_1.JPG)
+![Image of pcb_v4_2](https://raw.githubusercontent.com/markojavorac/nfc_platform/master/resources/pcb_v4_2.JPG)
+
+### Week 12 - November 20th, 2018
+- [x] Print case
+- [x] Upload images of PCB
+- [x] Seperate index.md & README.md
+
+### Image Update - PCB_V4
+#### Software
+![Image of nfc_sw](https://raw.githubusercontent.com/markojavorac/nfc_platform/master/resources/nfc_sw_1.JPG)
+![Image of nfc_sw](https://raw.githubusercontent.com/markojavorac/nfc_platform/master/resources/nfc_sw_2.JPG)
+
+#### Hardware
+![Image of nfc_sw](https://raw.githubusercontent.com/markojavorac/nfc_platform/master/resources/pcb_final_1.JPG)
+![Image of nfc_sw](https://raw.githubusercontent.com/markojavorac/nfc_platform/master/resources/pcb_final_2.JPG)
 
 
 ## License
