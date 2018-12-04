@@ -12,14 +12,22 @@ https://learn.adafruit.com/adafruit-pn532-rfid-nfc
 ## Software
 Developed on and for the Broadcom Development Platform(Raspberry Pi)
 
-## Budget
-https://github.com/markojavorac/nfc_platform/blob/master/documentation/Budget_v2.xlsx
 
 ## Budget
 https://github.com/markojavorac/nfc_platform/blob/master/documentation/Budget_v2.xlsx
 
 ## Progress
 [Project Schedule](temp.com)
+### Week 1
+### Week 2
+### Week 3
+### Week 4
+### Week 5
+### Week 6
+### Week 7
+### Week 8
+
+
 ### Week 9
 PCB has been designed in Eagle and submitted to the prototype lab. Currently reading Beginning NFC by O'Reilly to understand libnfc and software standards.
 
@@ -64,6 +72,10 @@ Today I picked up my board but with Kristians keen eye, he caught that my board 
 #### Hardware
 ![Image of nfc_sw](https://raw.githubusercontent.com/markojavorac/nfc_platform/master/resources/pcb_final_1.JPG)
 ![Image of nfc_sw](https://raw.githubusercontent.com/markojavorac/nfc_platform/master/resources/pcb_final_2.JPG)
+
+### Week 13 - December 4th, 2018
+- [ ] Create build guide
+- [x] Attend class
 
 
 ## License
