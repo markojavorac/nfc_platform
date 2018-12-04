@@ -25,7 +25,7 @@ https://github.com/markojavorac/nfc_platform/blob/master/documentation/Budget_v2
 PN532 Board + NFC Card https://learn.adafruit.com/adafruit-pn532-rfid-nfc
 Soldering Station
 PCB/PVC Printing
-Protoypeing Equipment
+Prototyping Equipment
 
 ## Software Required 
 Developed for the Broadcom Development Platform (Raspberry Pi 3)
