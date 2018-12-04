@@ -17,7 +17,7 @@ Full Tutorial for Beginners https://www.youtube.com/watch?v=iKfFNNtfpMU
 
 
 ## Hardware Required
-PN532 Board + NFC Cards https://learn.adafruit.com/adafruit-pn532-rfid-nfc
+PN532 Board + NFC Card https://learn.adafruit.com/adafruit-pn532-rfid-nfc
 Soldering Station
 PCB/PVC Printing
 Protoypeing Equipment
@@ -30,6 +30,21 @@ All relavent files required are provided in this repository
 # Prototyping
 img of board layout
 
+#### Initial soldering
+To enable communicattion between the pi and the PN532 Board, You will have to choose a communications protocol and solder header pins on the designated protocol. For this tutorial we will be using I2C and jumpers will be needed to specify this protocol. The jumpers come in the PN532 kit.
+![top side of sensor](https://github.com/markojavorac/nfc_platform/blob/master/resources/sensor_pin2.JPG)
+![bottom side of sensor](https://github.com/markojavorac/nfc_platform/blob/master/resources/sensor_pin1.JPG)
+![jumpers](https://github.com/markojavorac/nfc_platform/blob/master/resources/sensor_jumper.JPG)
+#### NOTE!!!
+To enable I2C or any other communication protocol, the jumpers must be configured correctly. Setup table is below.
+![communications table](https://github.com/markojavorac/nfc_platform/blob/master/resources/i2c_config.png)
+
+
+
+
+
+
+##
 ## TODO 
 Hardware required
 Hardware assembly instructions
