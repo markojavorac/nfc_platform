@@ -15,6 +15,9 @@ Tutorial 1 for Eagle https://www.youtube.com/watch?v=1AXwjZoyNno&t=0s
 ### CorelDraw
 Full Tutorial for Beginners https://www.youtube.com/watch?v=iKfFNNtfpMU
 
+## Budget
+Review of total costs
+https://github.com/markojavorac/nfc_platform/blob/master/documentation/Budget_v2.xlsx
 
 ## Hardware Required
 PN532 Board + NFC Card https://learn.adafruit.com/adafruit-pn532-rfid-nfc
@@ -28,9 +31,9 @@ Developed for the Broadcom Development Platform (Raspberry Pi 3)
 All relavent files required are provided in this repository
 
 # Prototyping
-img of board layout
+![PN532](https://cdn-shop.adafruit.com/970x728/364-05.jpg)
 
-#### Initial soldering
+#### Initial Hardware Configuration
 To enable communicattion between the pi and the PN532 Board, You will have to choose a communications protocol and solder header pins on the designated protocol. For this tutorial we will be using I2C and jumpers will be needed to specify this protocol. The jumpers come in the PN532 kit.
 ![top side of sensor](https://github.com/markojavorac/nfc_platform/blob/master/resources/sensor_pin2.JPG)
 ![bottom side of sensor](https://github.com/markojavorac/nfc_platform/blob/master/resources/sensor_pin1.JPG)
@@ -39,23 +42,23 @@ To enable communicattion between the pi and the PN532 Board, You will have to ch
 To enable I2C or any other communication protocol, the jumpers must be configured correctly. Setup table is below.
 ![communications table](https://github.com/markojavorac/nfc_platform/blob/master/resources/i2c_config.png)
 
+#### Initial Software Configuration
+We will now be shifting our focus over to the sofware side.To interact with the board and use nfc functionality, we will be using and open source librarby named libnfc. The is a basic but powerful package of libraries that will get us going and be founcation to your future projects. We will again assume you understand how to setup and run debian on a raspberry pi
 
+This official libnfc guide will walk you through installing the library.
+http://nfc-tools.org/index.php/Libnfc#Debian_.2F_Ubuntu
 
+#### Bringing together initial hardware and software
+We will give it quick test to make sure all our components are working. A breadboard is a great way to test this.
 
-
-
-##
-## TODO 
-Hardware required
+### TODO!!!! 
 Hardware assembly instructions
 Photos of development
 i2c detect guide
 pcb creation
+case creation
 
 
-
-## Budget
-https://github.com/markojavorac/nfc_platform/blob/master/documentation/Budget_v2.xlsx
 
 ## License
 This project is licensed under the GNU General Public License v3.0 - see the LICENSE.md file for details
