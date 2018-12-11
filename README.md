@@ -1,12 +1,13 @@
 # Adafruit PN532NFC Build Instructions
-By: Marko Javorac, Toronto, Canada
+By: Marko Javorac
+Toronto, Canada
 ## Introduction
-NFC/RFID technology has been a staple in the world for decades. From security to automation, this technology can implemented in a varity of ways. This guide will get you up and running using the adafruit PN532 board with your Rasberry Pi.
+NFC/RFID technology has been a staple in the world for decades. From security to automation, this technology can implemented in a varity of ways. This guide will help you up and running using the Adafruit PN532 board with your Rasberry Pi.
 ![PN532](https://cdn-shop.adafruit.com/970x728/364-05.jpg)
 
 
 ## Prerequistes
-Due to the nature of this guide, a few skills will be required that are beyond the scope of this guide. A few helpful links are provided below to help you.
+Due to its nature, a few skills will be required that are beyond the scope of this guide. A few helpful links are provided below.
 - Soldering Basics Tutorial https://www.youtube.com/watch?v=BxASFu19bLU 
 - Eagle https://www.youtube.com/watch?v=1AXwjZoyNno&t=0s
 - CorelDraw https://www.youtube.com/watch?v=iKfFNNtfpMU
@@ -14,7 +15,8 @@ Due to the nature of this guide, a few skills will be required that are beyond t
 
 ## Budget
 The toal cost of this project can very depending on how much equipment you have access to and the PCB providers.
-A fulll breakdown of the costs is a valiable here https://github.com/markojavorac/nfc_platform/blob/master/documentation/Budget_v2.xlsx
+A fulll breakdown of the costs is avaliable here. 
+- https://github.com/markojavorac/nfc_platform/blob/master/documentation/Budget_v2.xlsx
 
 ## Hardware Required
 - PN532 Board + NFC Card https://learn.adafruit.com/adafruit-pn532-rfid-nfc
@@ -27,22 +29,23 @@ A fulll breakdown of the costs is a valiable here https://github.com/markojavora
 
 # Prototyping
 #### Initial Hardware Configuration
-To enable communicattion between the pi and the PN532 Board, You will have to choose a communications protocol and solder header pins on the designated protocol. For this tutorial we will be using I2C and jumpers will be needed to specify this protocol. The jumpers come in the PN532 kit.
+To enable comunicattion between the Pi and the PN532 Board, you will have to choose a communications protocol and solder jumpers on the designated protocol. For this tutorial we will be using I2C. The jumpers are included in the PN532 kit.
 ![top side of sensor](https://github.com/markojavorac/nfc_platform/blob/master/resources/sensor_pin2.JPG)
 ![bottom side of sensor](https://github.com/markojavorac/nfc_platform/blob/master/resources/sensor_pin1.JPG)
 ![jumpers](https://github.com/markojavorac/nfc_platform/blob/master/resources/sensor_jumper.JPG)
-#### NOTE!!!
+
+#### I2C 
 To enable I2C or any other communication protocol, the jumpers must be configured correctly. Setup table is below.
 ![communications table](https://github.com/markojavorac/nfc_platform/blob/master/resources/i2c_config.png)
 
 #### Initial Software Configuration
-We will now be shifting our focus over to the sofware side.To interact with the board and use nfc functionality, we will be using and open source librarby named libnfc. The is a basic but powerful package of libraries that will get us going and be founcation to your future projects. We will again assume you understand how to setup and run debian on a raspberry pi
+We will now be shifting our focus over to the sofware side. To interact with the board and use nfc functionality, we will be using an open source library called libnfc. The is a basic but powerful package of libraries that will get us going and be foundation to your future projects. We will again assume you understand how to setup and run Debian on a Pi.
 
-This official libnfc guide will walk you through installing the library. This website contains a plethora of information regarding NFC and should be your goto for troubleshooting the software side. 
-Link: http://nfc-tools.org/index.php/Libnfc#Debian_.2F_Ubuntu
+This official libnfc guide will walk you through installing the library. This website contains a plethora of information regarding NFC and should be your goto for troubleshooting the software side.
+ - http://nfc-tools.org/index.php/Libnfc#Debian_.2F_Ubuntu
 
 #### Bringing together initial hardware and software
-We will give it quick test to make sure all our components are working. A breadboard is a great way to test this. The pins must be configured the right way for our sensor. Be extra careful as you do this to not damadge you board.
+We will give it quick test to make sure all our components are working. A prototyping breadboard is a great way to do this. The pins must be configured the right way for our sensor. Be extra careful as you do this to not damage you board.
 
 - Pin01 --> 3.3V
 - Pin03 --> SDA
@@ -54,7 +57,7 @@ We will give it quick test to make sure all our components are working. A breadb
 
 
 
-Running the i2cdetect program will let you know if your pi can actually see the i2c device. Your address might vary from mine and thats fine. The goal is just get an address.
+Running the i2cdetect program will let you know if your PI can actually see the i2c device. Your address might vary from mine and thats fine. The goal is just get an address.
 
 ![i2c detect](https://github.com/markojavorac/nfc_platform/blob/master/resources/nfc_sw1.png)
 
@@ -64,7 +67,7 @@ Using libnfc, we can run a simple poll program that when a card is detected, it 
 
 
 ## PCB
-Our PCB is designed in EAGLE and the file is provided in PCB folder of this repository. Notice that I went to multiple iterations of the PCB to get a design that worked for me. Unless you have a PCB printing station avaliable to you, You will have to use an online printing soultion. A quick look up online will help you find the right one. It is also possible to find PCB printers in your area. There are a variety of pros and cons to each that you willl have to decide for yourself.
+Our PCB is designed in EAGLE and the file is provided in PCB folder of this repository. Notice that I went through multiple iterations of the PCB to get a design that worked for me. Unless you have a PCB printing station avaliable to you, You will have to use an online printing soultion. A quick look up online will help you find the right one. It is also possible to find PCB printers in your area. There are a variety of pros and cons to each that you willl have to decide for yourself.
 
 ![pcb schmatic](https://github.com/markojavorac/nfc_platform/blob/master/resources/sch_1.png).
 
@@ -75,22 +78,20 @@ You will have to solder headers and resitors where shows in the images below. Fo
 ![pcb top1](https://github.com/markojavorac/nfc_platform/blob/master/resources/pcb_bot_1.JPG)
 ![pcb top2](https://github.com/markojavorac/nfc_platform/blob/master/resources/pcb_bot_2.JPG)
 
-### NOTE: This PCB is not the final one provided in the repository. It has a modifcation so you done need to drill and rewire as I had to. In the future, I will repost the final one
+### NOTE:
+This PCB is not the final one provided in the repository. It has a modifcation so you don't need to drill and rewire as I had to. In the future, I will repost an image of the final one.
 
 ## Case
 Although it it not necessary to have a case, protecting your hardware is a great idea. In this repo, there is a case design cad file that is to be used with a sheet of acrylic. It is not a perfect case but it will get the job done
 TODO - photo of case
 
 
-## All together now.
-
+## Bringing it all together.
+You should now be able to combine the pcb, board, and PI onto one neat unit. 
 ![final1](https://github.com/markojavorac/nfc_platform/blob/master/resources/pcb_final_1.JPG)
 ![final2](https://github.com/markojavorac/nfc_platform/blob/master/resources/pcb_final_2.JPG)
+![final3](https://github.com/markojavorac/nfc_platform/blob/master/resources/final_1.JPG)
 
-
-
-Photos of development
-i2c detect guide
 
 
 
