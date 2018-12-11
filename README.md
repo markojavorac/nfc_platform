@@ -39,7 +39,7 @@ To enable I2C or any other communication protocol, the jumpers must be configure
 We will now be shifting our focus over to the sofware side.To interact with the board and use nfc functionality, we will be using and open source librarby named libnfc. The is a basic but powerful package of libraries that will get us going and be founcation to your future projects. We will again assume you understand how to setup and run debian on a raspberry pi
 
 This official libnfc guide will walk you through installing the library. This website contains a plethora of information regarding NFC and should be your goto for troubleshooting the software side. 
-### http://nfc-tools.org/index.php/Libnfc#Debian_.2F_Ubuntu
+Link: http://nfc-tools.org/index.php/Libnfc#Debian_.2F_Ubuntu
 
 #### Bringing together initial hardware and software
 We will give it quick test to make sure all our components are working. A breadboard is a great way to test this. The pins must be configured the right way for our sensor. Be extra careful as you do this to not damadge you board.
@@ -84,6 +84,8 @@ TODO - photo of case
 
 ## All together now.
 
+![final1](https://github.com/markojavorac/nfc_platform/blob/master/resources/pcb_final_1.JPG)
+![final2](https://github.com/markojavorac/nfc_platform/blob/master/resources/pcb_final_2.JPG)
 
 
 
