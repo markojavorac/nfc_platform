@@ -83,8 +83,6 @@ This PCB is not the final one provided in the repository. It has a modifcation s
 
 ## Case
 Although it it not necessary to have a case, protecting your hardware is a great idea. In this repo, there is a case design cad file that is to be used with a sheet of acrylic. It is not a perfect case but it will get the job done
-TODO - photo of case
-
 
 ## Bringing it all together.
 You should now be able to combine the pcb, board, and PI onto one neat unit. 
