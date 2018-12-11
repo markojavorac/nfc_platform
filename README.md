@@ -91,7 +91,10 @@ You should now be able to combine the pcb, board, and PI onto one neat unit.
 ![final3](https://github.com/markojavorac/nfc_platform/blob/master/resources/final_1.JPG)
 
 
+# Wrapping up
+By following these instructions, you should be able to get your own PN532 board working on the Rasberrry Pi and begin exploring NFC projects with confidence. If you have any comments or suggestions please email me at javorac.plus@gmail.com.
 
+-Marko
 
 ## License
 This project is licensed under the GNU General Public License v3.0 - see the LICENSE.md file for details
