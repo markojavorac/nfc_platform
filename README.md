@@ -56,7 +56,7 @@ We will give it quick test to make sure all our components are working. A protot
 - Pin06 --> GND 
 
 ![proto 1](https://github.com/markojavorac/nfc_platform/blob/master/resources/proto_1.JPG)
-![proto 2](https://github.com/markojavorac/nfc_platform/blob/master/resources/proto_2.JPG)
+![proto 2](https://github.com/markojavorac/nfc_platform/blob/master/resources/proto_2_rot.JPG)
 
 
 Running the i2cdetect program will let you know if your PI can actually see the i2c device. Your address might vary from mine and thats fine. The goal is just get an address.
