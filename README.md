@@ -1,4 +1,4 @@
-# Adafruit PN532NFC Build Instructions
+# Adafruit PN532 NFC/RFID + PCB Build Instructions
 By: Marko Javorac
 Toronto, Canada
 ## Introduction
