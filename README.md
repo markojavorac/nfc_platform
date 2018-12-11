@@ -4,8 +4,6 @@ Toronto, Canada
 ## Introduction
 NFC/RFID technology has been a staple in the world for decades. From security to automation, this technology can implemented in a varity of ways. This guide will help you up and running using the Adafruit PN532 board with your Rasberry Pi.
 ![final2](https://github.com/markojavorac/nfc_platform/blob/master/resources/pcb_final_2.JPG)
-![PN532](https://cdn-shop.adafruit.com/970x728/364-05.jpg)
-
 
 ## Prerequistes
 Due to its nature, a few skills will be required that are beyond the scope of this guide. A few helpful links are provided below.
@@ -15,17 +13,16 @@ Due to its nature, a few skills will be required that are beyond the scope of th
 - Raspberry Pi Guide https://www.youtube.com/watch?v=juHoJYX86Dg
 
 ## Time Commitment
-THe time required can vary depening on a few factors. If recive your parts, prepare Raspberry Pi, and install required libraries
+The time required can vary depening on a few factors. If recive your parts, prepare Raspberry Pi, and install required libraries
 
 ## Bill of Materials/Budget
-The toal cost of this project can very depending on how much equipment you have access to and the PCB providers.
-A fulll breakdown of the costs is avaliable here. 
+The toal cost of this project can very depending on how much equipment you have access to and the PCB providers. The average cost will be around $150. A fulll breakdown of the costs is avaliable here. 
 - https://github.com/markojavorac/nfc_platform/blob/master/documentation/Budget_v2.xlsx
 
 ## Hardware Required
 - PN532 Board + NFC Card https://learn.adafruit.com/adafruit-pn532-rfid-nfc
 - Soldering Station
-- PCB/PVC Printing
+- PCB/Acrylic Printing
 - Prototyping Equipment
 
 ## Software Required 
