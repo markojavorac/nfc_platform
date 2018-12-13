@@ -90,7 +90,7 @@ You should now be able to combine the pcb, board, and PI onto one neat unit.
 ![final3](https://github.com/markojavorac/nfc_platform/blob/master/resources/final_1.JPG)
 
 ## Production Testing
-This guide helps you make one unit but scaling up to commercial introduces
+This guide helps you make one unit but scaling up to commercial introduces a new dimension of challenges. Condensing board design, cost-effective materials, and dedicated read-only nfc board are possible avenues to explore when considering commercial opportunities. 
 
 # Wrapping up
 By following these instructions, you should be able to get your own PN532 board working on the Rasberrry Pi and begin exploring NFC projects with confidence. If you have any comments or suggestions please email me at javorac.plus@gmail.com.
